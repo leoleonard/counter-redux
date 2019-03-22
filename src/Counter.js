@@ -9,11 +9,11 @@ class Counter extends React.Component {
     };
 
     decrement = () => {
-        this.props.dispatch(decrement() );
+        this.props.decrement();
     };
 
     reset = () => {
-        this.props.dispatch(reset() );
+        this.props.reset();
     };
 
     render() {
